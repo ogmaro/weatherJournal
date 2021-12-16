@@ -1,0 +1,38 @@
+* {
+  background-color: rgb(66, 57, 57);
+  color: #fff;
+}
+.container h1{
+    font-size: 5rem;
+}
+.form h2{
+    font-size: 2rem;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+input {
+  padding: 1rem;
+  border-radius: 0.4rem;
+}
+#generate {
+  padding: 1rem;
+  border-radius: 0.4rem;
+  background-color: #fff;
+  color: rgb(66, 57, 57);
+  font-weight: bold;
+  font-size: 2rem;
+}
+.content {
+  text-align: center;
+}
+.entry p {
+  padding-top: 2rem;
+}
